@@ -1,5 +1,4 @@
 job "vault-cluster" {
- namespace   = "vault-cluster"
  datacenters = ["home"]
  type        = "service"
  
