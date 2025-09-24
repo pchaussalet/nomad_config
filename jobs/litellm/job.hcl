@@ -13,7 +13,7 @@ job "litellm" {
     service {
       port = "http"
 
-      tag = [
+      tags = [
         "traefik.enable=true",
         "traefik.http.routers.http.rule=Path(`/litellm`)",
       ]
