@@ -1,6 +1,8 @@
 job "plugin-nfs-nodes" {
   datacenters = ["home"]
 
+  priority = 100
+
   type = "system"
 
   group "nodes" {
