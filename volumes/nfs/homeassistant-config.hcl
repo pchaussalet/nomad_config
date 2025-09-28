@@ -4,7 +4,7 @@ name = "homeassistant-config"
 plugin_id = "nfs"
 
 capability {
-  access_mode = "multi-node-multi-writer"
+  access_mode = "multi-node-single-writer"
   attachment_mode = "file-system"
 }
 
