@@ -1,5 +1,5 @@
 type = "csi"
-id = "nfs"
+id = "homeassistant-config"
 name = "homeassistant-config"
 plugin_id = "nfs"
 
